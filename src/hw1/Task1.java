@@ -15,13 +15,13 @@ public class Task1 {
 
     }
 
-    static void format(int day, int month, int year)
+     private static void format(int day, int month, int year)
     {
         System.out.println(day+"."+month+"."+year);
     }
-    static void nextday(int day, int month, int year)
+     private static void nextday(int day, int month, int year)
     {
-        if(day==31 && (month==1|month==3|month==5| month==7|month==8|month==10)&& month!=12)
+        if(day==31 && (month==1|month==3|month==5| month==7|month==8|month==10))
         {
             month++;
             day=1;

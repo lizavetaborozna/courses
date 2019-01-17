@@ -14,15 +14,15 @@ public class Task3 {
         int c = sc.nextInt();
         discriminant(a,b,c);
     }
-    static double discriminant(int a, int b, int c)
+     private static double discriminant(int a, int b, int c)
     {
         int d=b*b-4*a*c;
-        if(isPositive(d)==false && d!=0)
+        if(!isPositive(d) && d!=0)
         {
             System.out.println("Дискриминант отрицательный");
             System.out.println(d);
         }
-        else if (isZero(d)==true)
+        else if (isZero(d))
         {
             double x=(-b+Math.sqrt(d))/2*a;
             System.out.println("Дискриминант равен нулю");
@@ -38,13 +38,13 @@ public class Task3 {
         return d;
     }
 
-    static boolean isPositive(int d)
+     private static boolean isPositive(int d)
     {
         if(d>0) return true;
         else return false;
     }
 
-    static boolean isZero(int d)
+    private static boolean isZero(int d)
     {
         if(d==0) return true;
         else return false;
