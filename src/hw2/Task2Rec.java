@@ -11,13 +11,13 @@ public class Task2Rec {
         int f1 = 1;
         System.out.println("Ряд Фибоначчи");
         System.out.println(f0);
-        recursia(f0,f1,n);
+        printRecursiveFib(f0,f1,n);
     }
-    private static void recursia(int f0, int f1,int n) {
+    private static void printRecursiveFib(int f0, int f1,int n) {
         System.out.println(f1);
          int n2 = f0 + f1;
         if (n2 < n) {
-            recursia(f1,n2,n);
+            printRecursiveFib(f1,n2,n);
         }
 
     }

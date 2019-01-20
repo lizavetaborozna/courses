@@ -7,19 +7,18 @@ public class Task1 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число");
         int n = sc.nextInt();
-        sum(n);
+        searchSum(n);
     }
 
-    private static void sum(int n) {
+    private static void searchSum(int n) {
         String str = Integer.toString(n);
-        String[] str1;
         String delimeter = "";
-        str1 = str.split(delimeter);
-        int m = 0;
-        for (int i = 0; i < str1.length; i++) {
-            int k = Integer.parseInt(str1[i]);
-            m += k;
+        String[] number = str.split(delimeter);
+        int sum = 0;
+        for (int i = 0; i < number.length; i++) {
+            int k = Integer.parseInt(number[i]);
+            sum += k;
         }
-        System.out.println(m);
+        System.out.println(sum);
     }
 }

@@ -7,10 +7,10 @@ public class Task2 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число");
         int n = sc.nextInt();
-         fibonachi(n);
+         printFibonachi(n);
     }
 
-    private static void fibonachi(int n) {
+    private static void printFibonachi(int n) {
         int f0 = 0;
         int f1 = 1;
         int n2=0;
