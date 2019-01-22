@@ -5,10 +5,10 @@ import java.util.Arrays;
 public class Task2 {
     public static void main(String[] args) {
         int[] array = new int[]{1, 3, 1, 3, 5, 6, 7, 9, 7, 8, 9};
-        removeDuplicate(array);
+        removeDuplicateNumber(array);
     }
 
-    private static int[] removeDuplicate(int[] array) {
+    private static int[] removeDuplicateNumber(int[] array) {
         int[] tmp = new int[array.length];
         int i = 0, ind = 1, k = 0;
         boolean isRepeat = false;

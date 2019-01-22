@@ -34,6 +34,7 @@ public class Task3 {
             System.out.println(Arrays.toString(newarray));
         }
     }
+
     private static int findMinLength(int[] array, int[] array1) {
         if (array.length < array1.length) {
             return array.length;

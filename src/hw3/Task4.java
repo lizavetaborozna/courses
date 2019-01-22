@@ -21,3 +21,4 @@ public class Task4 {
         System.out.println(Arrays.toString(odnomearray));
     }
 }
+
