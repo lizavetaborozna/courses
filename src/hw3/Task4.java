@@ -11,13 +11,13 @@ public class Task4 {
     private static void linearize(int[][] array) {
         int arraysize = array.length * 2;
         int k = 0;
-        int odnomarray[] = new int[arraysize];
+        int odnomearray[] = new int[arraysize];
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
-                odnomarray[k] = array[i][j];
+                odnomearray[k] = array[i][j];
                 k++;
             }
         }
-        System.out.println(Arrays.toString(odnomarray));
+        System.out.println(Arrays.toString(odnomearray));
     }
 }
