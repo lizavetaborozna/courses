@@ -1,4 +1,4 @@
-package hw4;
+package procedural.hw4;
 
 import java.util.Scanner;
 

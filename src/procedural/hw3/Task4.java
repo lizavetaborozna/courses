@@ -1,4 +1,4 @@
-package hw3;
+package procedural.hw3;
 
 import java.util.Arrays;
 
